@@ -28,14 +28,4 @@ A small upfront investment in tooling and environment setup saves you hours of f
 - [ ] Create a GitHub account.
 - [ ] Install Live Server extension in VS Code
 
-### Terminal basics (cheat)
-```bash
-pwd                 # print current directory
-ls / dir            # list files
-cd path/to/folder   # change directory
-mkdir project-name  # create folder
-touch file.txt      # create file (mac/linux)
-rm file             # remove file (careful!)
-code .              # open current folder in VS Code
-```
 
