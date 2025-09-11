@@ -2,6 +2,7 @@
 title: Setup
 nav_order: 2
 has_children: false
+parent: Introduction to Web Development
 layout: page
 header-includes:
 - \pagenumbering{gobble}
