@@ -5,5 +5,5 @@ theme: just-the-docs
 url: https://jake0011.github.io/vacation_training_25
 
 aux_links:
-  my github: https://jake0011.github.io/vacation_training_25
-  Dark Mode: "#"
+  my github: "https://jake0011.github.io/vacation_training_25"
+  Dark Mode: #
