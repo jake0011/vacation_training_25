@@ -1,8 +1,9 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: vacation_training_25
+description: a simple site for the instruction of a training session.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://jake0011.github.io/vacation_training_25
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  my github: https://jake0011.github.io/vacation_training_25
+  Dark Mode: "#"
