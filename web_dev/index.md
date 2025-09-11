@@ -55,7 +55,7 @@ These are some of the basic tools you will use regularly for this training and b
 - **[Git](https://git-scm.com/)**
 - **[GitHub](https://github.com/)**
  
-> PS: Notice how I did not add any AI tool? This is deliberate. I am training you to know how to reason and solve problems for yourself. Not to outsource to AI all the time. Also, if you care to know, using AI to replace your fundamentals only gets the work done now, it won't be proof that you can do the said thing. Fundamentals are supposed to be gained through thorough study of relevant material, not shortcuts and "just completing".
+> **PS:** Notice how I did not add any AI tool? This is deliberate. I am training you to know how to reason and solve problems for yourself. Not to outsource to AI all the time. Also, if you care to know, using AI to replace your fundamentals only gets the work done now, and will make you shit at that skill, it won't be proof that you can do the said thing. Fundamentals are supposed to be gained through thorough study of relevant material, not shortcuts and "just completing".
 
 
 ### Motivation
