@@ -14,8 +14,7 @@ header-includes:
 A small upfront investment in tooling and environment setup saves you hours of frustration later. The goal here is a reproducible environment that lets you focus on learning HTML/CSS, not fighting your tools.
 
 ### Accounts you should create (one-time)
-- GitHub (or GitLab/Bitbucket) — for hosting code and collaborating.
-- An email account you check frequently (for GitHub notifications, password resets).
+- GitHub — for hosting code and collaborating.
 
 ### Recommended tools
 - **Text editor:** Visual Studio Code (VS Code). Lightweight, extensible, and widely used in industry.
