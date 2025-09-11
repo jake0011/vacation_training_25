@@ -8,7 +8,10 @@ header-includes:
 ---
 
 ### Introduction
+This section of the training is instructed by [jake](https://github.com/jake0011)
 
+
+### Web development?
 What do web developers do? In short, they build and maintain websites.
 
 Web developers often work for clients who are trying to get their product or service onto the web.
