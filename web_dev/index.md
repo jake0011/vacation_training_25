@@ -86,7 +86,7 @@ And it might even be life-changing.
 
 ### Assignment
 #### Todo 
-  For the following articles below, read thoroughly each of them, understand them, and write a short summary in "YOUR OWN WORDS" on each of them and submit before our next meeting.
+  For the following articles below, read thoroughly each of them, understand them, and write a short summary in `YOUR OWN WORDS` on each of them and submit before our next meeting.
 
 <div class="lesson-content__panel" markdown="1">
   
