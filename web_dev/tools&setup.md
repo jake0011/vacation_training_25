@@ -20,7 +20,7 @@ A small upfront investment in tooling and environment setup saves you hours of f
 - **Text editor:** Visual Studio Code (VS Code). Lightweight, extensible, and widely used in industry.
 - **Browser(s):** Chrome/Edge or Firefox (both include excellent devtools).
 - **Git:** Version control (we’ll cover Git in a dedicated page).
-- **Optional but helpful:** Live Server extension (instant preview).
+- **Optional but helpful:** Live Server extension (for instant preview of your web pages).
 
 ### Quick installation checklist.
 - [ ] Install VS Code
