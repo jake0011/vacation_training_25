@@ -2,7 +2,7 @@
 title: Understanding the Web
 nav_order: 4
 has_children: false
-parent: Introduction to Web Development
+parent: Web Development
 layout: page
 header-includes:
 - \pagenumbering{gobble}
