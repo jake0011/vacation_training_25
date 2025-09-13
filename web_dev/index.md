@@ -1,5 +1,5 @@
 ---
-title: Introduction to Web Development
+title: Web Development
 nav_order: 1
 has_children: true
 layout: page
