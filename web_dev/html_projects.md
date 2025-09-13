@@ -2,7 +2,7 @@
 title: HTML Projects
 nav_order: 5
 has_children: false
-parent: Web Development
+parent: html
 layout: page
 header-includes:
 - \pagenumbering{gobble}
