@@ -1,6 +1,6 @@
 ---
 title: html
-nav_order: 2
+nav_order: 3
 has_children: false
 parent: Web Development
 layout: page
@@ -10,81 +10,7 @@ header-includes:
 
 ## Lesson overview
 
-This section contains a general overview of HTML and various assignments to practice it.
-
-### Introduction
-
-Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
-
-In this lesson, we will learn about the text-based elements you are likely to use the most.
-
-
-### Paragraphs
-
-What would you expect the following text to output on an HTML page?
-
-```html
-<body>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua.
-
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</body>
-```
-
-It looks like two paragraphs of text, so you might expect it to display in that way. However, that is not the case.
-
-When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
-
-If we want to create paragraphs in HTML, <span id='create-paragraph-element'> we need to use the paragraph element</span>, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
-
-Changing our example from before to use paragraph elements fixes the issue.
-
-### Headings
-
-Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
-
-<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
-
-Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
-
-Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
-
-### Strong element
-
-The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
-
-But you will probably find yourself using the strong element much more in combination with other text elements.
-
-Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
-
-### Em element
-
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
-
-Again, like the strong element, you will find yourself mostly using the `<em>` element with other text elements:
-
-
-### Nesting and indentation
-
-You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
-
-<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
-
-Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
-
-We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. In our examples, we have indented any child elements by two spaces per nesting level.
-
-The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
-
-### HTML comments
-
-HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
-
-In order to write an HTML comment, we just enclose the comment with `<!--` and `-->` tags. 
-
----
+This section contains a general overview of HTML.
 
 ## HTML and CSS
 
@@ -291,6 +217,76 @@ Some HTML elements do not have a closing tag. These elements just have a single 
 
 You might also see these referred to as self-closing tags. But those are just void elements with a forward slash(/) at the end like: `<br />` or `<img />`. You're likely to see self-closing tags used often for historical reasons. Browsers will be able to render them just fine, but the latest version of the HTML specification discourages their use and considers them invalid.
 
+---
+
+## Popular Text Elements 
+Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit, so we will look at some of the popular text elements in HTML that you might be using often.
+
+### Paragraphs
+What would you expect the following text to output on an HTML page?
+
+```html
+<body>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.
+</body>
+```
+
+It looks like two paragraphs of text, so you might expect it to display in that way. However, that is not the case.
+
+When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
+
+If we want to create paragraphs in HTML, <span id='create-paragraph-element'> we need to use the paragraph element</span>, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+
+Changing our example from before to use paragraph elements fixes the issue.
+
+### Headings
+
+Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
+
+<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
+
+Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
+
+Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
+
+### Strong element
+
+The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
+
+But you will probably find yourself using the strong element much more in combination with other text elements.
+
+Sometimes you will want to make text bold without giving it an important meaning. You'll learn how to do that in the CSS lessons later in the curriculum.
+
+### Em element
+
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
+
+Again, like the strong element, you will find yourself mostly using the `<em>` element with other text elements:
+
+
+### Nesting and indentation
+
+You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
+
+<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
+
+Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
+
+We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. In our examples, we have indented any child elements by two spaces per nesting level.
+
+The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
+
+### HTML comments
+
+HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
+
+In order to write an HTML comment, we just enclose the comment with `<!--` and `-->` tags. 
+
+---
 
 ## Links and Images
 
