@@ -1,4 +1,12 @@
-
+---
+title: Introduction to Web Development
+nav_order: 1
+has_children: false
+parent: Introduction to Web Development
+layout: page
+header-includes:
+- \pagenumbering{gobble}
+---
 
 # Introduction
 
