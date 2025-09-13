@@ -1,7 +1,7 @@
 ---
 title: html
 nav_order: 4
-has_children: false
+has_children: true
 parent: Web Development
 layout: page
 header-includes:
