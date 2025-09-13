@@ -1,8 +1,8 @@
 ---
-title: Introduction to Web Development
+title: Introduction
 nav_order: 1
 has_children: false
-parent: Introduction to Web Development
+parent: Web Development
 layout: page
 header-includes:
 - \pagenumbering{gobble}
