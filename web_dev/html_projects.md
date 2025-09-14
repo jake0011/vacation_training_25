@@ -1,6 +1,6 @@
 ---
-title: HTML Projects
-nav_order: 5
+title: html-projects
+nav_order: 2
 has_children: false
 parent: html
 layout: page
